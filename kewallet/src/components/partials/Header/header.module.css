@@ -1,0 +1,38 @@
+.header {
+  background: #212329;
+  padding: 8px 0;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav li {
+  font-weight: 700;
+  list-style: none;
+}
+
+.nav li > a {
+  color: white;
+  text-decoration: none;
+  padding: 2px 8px;
+}
+
+.nav li > a:first-child {
+  padding-left: 0;
+}
+
+/* Custom Container */
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}

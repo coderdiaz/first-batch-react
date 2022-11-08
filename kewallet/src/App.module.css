@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.blockBalance {
+  grid-column: 1 / span 8;
+  grid-row: 1 / span 4;
+}
+
+.blockAnalytics {
+  grid-column: 1 / span 8;
+  grid-row: 5 / span 2;
+}
+
+.blockCashOut {
+  grid-column: 9 / span 4;
+  grid-row: span 6;
+}

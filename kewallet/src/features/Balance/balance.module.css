@@ -1,0 +1,32 @@
+.balance {
+  background-color: #1c1d21;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selector select {
+  background: transparent;
+  border: 0;
+  color: white;
+  font-weight: 600;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+.accounts {
+  background-color: #131519;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+}

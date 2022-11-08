@@ -1,0 +1,52 @@
+.account {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+  padding: 12px;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+  background-color: blue;
+  border-radius: 9999px;
+}
+
+/* Styles on Active  */
+.account.active {
+  background-color: #1c1d21;
+}
+
+/* Account details */
+.details {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.detailsLabel {
+  color: #8d8e92;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.detailsNumerics {
+  display: flex;
+  gap: 16px;
+}
+
+.detailsTotal {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.detailsCurrency {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-style: italic;
+  color: #8d8e92;
+}
+
+.detailsCta {
+  color: #8bb29d;
+}
